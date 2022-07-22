@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 40px 0 35px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    font-size: 37px;
+    line-height: 21px;
+    color: rgba(26, 26, 26, 0.71);
+}
+
+.header__links {
+    display: flex;
+    column-gap: 32px;
+}
+
+.header__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2A2A2A;
+    transition: .3s;
+}
+
+.header__link:hover {
+    color: #2A2A2A60;
+    transition: .3s;
+}
+
+.header__search-input {
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    border: 2px solid #2A2A2A;
+    border-radius: 8px;
+}
+
+
+.begin {
+    padding: 517px 0 30px;
+    background: url("../images/beginBg.png") center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.begin__title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.begin__link {
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+
+.catalog {
+    padding: 40px 0 172px;
+}
+
+.catalog__tabs {
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-bottom: 49px;
+}
+
+.catalog__tab{
+    font-size: 17px;
+    line-height: 27px;
+    color: #1A1A1A;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.catalog__tab:hover {
+    color: #B3B3B3;
+    transition: .4s;
+}
+
+.catalog__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.catalog__card {
+    width: calc(25% - 15px);
+}
+
+.catalog__img {
+    width: 100%;
+}
+
+.catalog__title {
+    font-size: 15px;
+    line-height: 18px;
+    color: #1A1A1A;
+    margin-bottom: 6px;
+}
+
+.catalog__grey {
+    color: #A8A8A8;
+}
+
+.catalog__price {
+    font-size: 13px;
+    line-height: 13px;
+    color: #808080;
+}
+
+.catalog__red {
+    color: #FF3451;
+}
+
+.catalog__btn {
+    height: 56px;
+    background: #1A1A1A;
+    padding: 0 61px;
+    font-size: 20px;
+    line-height: 56px;
+    color: #F7F7F7;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin: 66px auto 0;
+}
